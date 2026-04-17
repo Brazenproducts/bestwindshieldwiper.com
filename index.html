@@ -23,6 +23,8 @@ tr{transition:background .2s}table tr:hover{background:rgba(255,255,255,.05)}.st
 nav{background:#10141c;padding:14px 20px;position:sticky;top:0;z-index:100;border-bottom:2px solid #475569}
 nav .inner{max-width:1200px;margin:0 auto;display:flex;justify-content:space-between;align-items:center}
 nav .logo{font-family:'Exo 2',sans-serif;font-size:1.4rem;color:#e2e8f0;font-weight:700}nav .logo span{color:#60a5fa}
+.card-media{height:190px;overflow:hidden;background:#1f2937}
+.card-media img{width:100%;height:100%;object-fit:cover;display:block}
 nav ul{list-style:none;display:flex;gap:22px}nav ul li a{color:#94a3b8;font-size:.9rem}nav ul li a:hover{color:#fff;text-decoration:none}
 
 .hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('images/hero.png') center/cover;padding:100px 20px;text-align:center;min-height:480px;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
@@ -81,21 +83,21 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 <body>
 
 <nav><div class="inner">
-<a href="index.html" class="logo">🌧️ Best<span>Windshield</span>Wiper</a>
+<a href="index.html" class="logo">Best<span>Windshield</span>Wiper</a>
 <ul><li><a href="index.html">Rankings</a></li><li><a href="wiper-size-guide.html">Size Guide</a></li><li><a href="best-wipers-for-rain.html">Best for Rain</a></li><li><a href="best-wipers-for-snow.html">Best for Snow</a></li><li><a href="beam-vs-conventional.html">Beam vs Conventional</a></li></ul>
 </div></nav>
 
-<section class="hero">
+<section class="hero" style="background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),url('images/wiper-hero.jpg') center/cover">
 <div class="hero-inner">
-<span class="badge">🌧️ 2026 — TESTED IN REAL RAIN</span>
-<h1>Best Windshield Wipers, Tested &amp; Ranked</h1>
-<p>We installed 10 different wiper brands on the same vehicle and drove through Pacific Northwest rain for 4 months. Here's what performed.</p>
+<span class="badge">2026 BUYER'S GUIDE</span>
+<h1>Best Windshield Wipers, Ranked</h1>
+<p>Compare top wiper blade brands for rain, noise, durability, and value with size guides and category-specific recommendations.</p>
 </div>
 </section>
 
 <section class="section" id="comparison">
 <h2 class="section-title">The Comparison Table</h2>
-<p class="section-sub">Every brand tested on the same vehicle, same conditions, same timeframe</p>
+<p class="section-sub">A side-by-side look at the most popular beam and hybrid wiper blades for daily driving and bad-weather use</p>
 <div class="table-wrap animate-in">
 <table class="comp-table">
 <thead><tr><th>Brand</th><th>Model</th><th>Type</th><th>Price (pair)</th><th>Streak-Free</th><th>Durability</th><th>Noise</th><th>Best For</th><th>Rating</th></tr></thead>
@@ -118,6 +120,7 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 <div class="product-grid">
 
 <div class="product-card card animate-in" style="border-top-color:#60a5fa">
+<div class="card-media"><img src="images/car-wiper-detail.jpg" alt="Bosch Icon style beam windshield wiper blade on a modern vehicle windshield" loading="lazy"></div>
 <div class="product-card-body">
 <h3>Bosch Icon <span class="pick-label">🏆 Best Overall</span></h3>
 <div class="stars">★★★★★ <span style="color:#64748b;font-size:.82rem">4.9/5</span></div>
@@ -130,6 +133,7 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 </div>
 
 <div class="product-card card animate-in" style="border-top-color:#22c55e">
+<div class="card-media"><img src="images/rain-windshield.jpg" alt="Rain-X style windshield wiper blade clearing rain from a wet windshield" loading="lazy"></div>
 <div class="product-card-body">
 <h3>Rain-X Latitude <span class="pick-label" style="background:#22c55e">Best Value</span></h3>
 <div class="stars">★★★★★ <span style="color:#64748b;font-size:.82rem">4.7/5</span></div>
@@ -142,6 +146,7 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 </div>
 
 <div class="product-card card animate-in" style="border-top-color:#f59e0b">
+<div class="card-media"><img src="images/driving-rain.jpg" alt="Premium windshield wiper blades in use during heavy rain driving conditions" loading="lazy"></div>
 <div class="product-card-body">
 <h3>PIAA Super Silicone <span class="pick-label" style="background:#f59e0b">Longest Lasting</span></h3>
 <div class="stars">★★★★★ <span style="color:#64748b;font-size:.82rem">4.8/5</span></div>
@@ -154,6 +159,7 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 </div>
 
 <div class="product-card card animate-in">
+<div class="card-media"><img src="images/wet-road.jpg" alt="Michelin hybrid windshield wipers for wet road and daily driving visibility" loading="lazy"></div>
 <div class="product-card-body">
 <h3>Michelin Stealth Ultra</h3>
 <div class="stars">★★★★☆ <span style="color:#64748b;font-size:.82rem">4.4/5</span></div>
@@ -166,6 +172,7 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 </div>
 
 <div class="product-card card animate-in">
+<div class="card-media"><img src="images/rain-windshield.jpg" alt="Trico Force beam wiper blade clearing water from a windshield" loading="lazy"></div>
 <div class="product-card-body">
 <h3>Trico Force</h3>
 <div class="stars">★★★★☆ <span style="color:#64748b;font-size:.82rem">4.2/5</span></div>
@@ -199,11 +206,11 @@ footer{background:#10141c;padding:50px 20px 24px;margin-top:60px;border-top:1px 
 
 <footer>
 <div class="footer-grid">
-<div class="footer-col"><h4>BestWindshieldWiper</h4><p style="color:#64748b;font-size:.85rem">Real rain, real testing, real results. We test every wiper blade we recommend.</p></div>
+<div class="footer-col"><h4>BestWindshieldWiper</h4><p style="color:#64748b;font-size:.85rem">Windshield wiper reviews, size guides, and bad-weather buying advice for daily drivers and commuters.</p></div>
 <div class="footer-col"><h4>Guides</h4><ul><li><a href="wiper-size-guide.html">Wiper Size Guide</a></li><li><a href="best-wipers-for-rain.html">Best for Rain</a></li><li><a href="best-wipers-for-snow.html">Best for Snow</a></li><li><a href="best-rear-wipers.html">Best Rear Wipers</a></li><li><a href="beam-vs-conventional.html">Beam vs Conventional</a></li></ul></div>
 <div class="footer-col"><h4>Network</h4><ul><li><a href="https://autopartsreviewed.com">Auto Parts Reviewed</a></li><li><a href="https://homehvacfilters.com">Home HVAC Filters</a></li></ul></div>
 </div>
-<div class="affiliate-disc"><strong>Affiliate Disclosure:</strong> BestWindshieldWiper.com is a participant in the Amazon Services LLC Associates Program. We earn commissions from qualifying purchases. All testing and opinions are our own.</div>
+<div class="affiliate-disc"><strong>Affiliate Disclosure:</strong> BestWindshieldWiper.com is a participant in the Amazon Services LLC Associates Program. We earn commissions from qualifying purchases. Rankings and recommendations are based on product research, category knowledge, and buyer-focused comparisons.</div>
 <div class="footer-bottom">© 2026 BestWindshieldWiper.com — All rights reserved.</div>
 </footer>
 
